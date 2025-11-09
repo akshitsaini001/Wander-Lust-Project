@@ -40,7 +40,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link" href="/listings">Explore</a>
+        <a class="nav-link" href="/listings" style="background-color: #fe424d; color: #fff; text-align: center; border-radius: 10px;">Explore</a>
         
       </div>
 
@@ -57,11 +57,11 @@
       <div class="navbar-nav ms-auto">
         
         <%if (! currUser) {%>
-          <a class="nav-link abcbtn" style="background-color: #fe424d;" aria-current="page" href="/login">LogIn</a>
-          <a class="nav-link abcbtn" style="background-color: #fe424d;" href="/signup">SignUp</a>
+          <a class="nav-link abcbtn" style="background-color: #fe424d; color: #fff; text-align: center; border-radius: 10px; margin-top: 4px;"  aria-current="page" href="/login">LogIn</a>
+          <a class="nav-link abcbtn" style="background-color: #fe424d; color: #fff; text-align: center; border-radius: 10px;" href="/signup">SignUp</a>
         <% } %> <% if(currUser) { %>
-          <a class="nav-link abcbtn" style="background-color: #fe424d;" href="/logout">LogOut</a>
-          <a class="nav-link abcbtn" style="background-color: #fe424d;" href="/listings/new">Rent your property</a>
+          <a class="nav-link abcbtn" style="background-color: #fe424d; color: #fff; text-align: center; border-radius: 10px; margin-top: 4px;" href="/logout">LogOut</a>
+          <a class="nav-link abcbtn" style="background-color: #fe424d; color: #fff; text-align: center; border-radius: 10px;" href="/listings/new">Rent your property</a>
         <% } %>
       </div>
     </div>
